@@ -393,7 +393,7 @@
   document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.sendForm("service_xq7h3lc", "U0hEOkCoNylvCy_Ze", this)
+    emailjs.sendForm("service_xq7h3lc", "template_fi4z0e1", this)
       .then(() => {
         alert("✅ Mensaje enviado con éxito. ¡Gracias por contactarme!");
         this.reset();
